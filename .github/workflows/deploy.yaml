@@ -32,7 +32,7 @@ jobs:
       #- name: Remove source maps from app
       #  run: rm dist/assets/*.js.map
       - name: Upload app artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages
           path: dist
